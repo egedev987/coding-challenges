@@ -3,7 +3,7 @@
 // function multiply(a, b) {
 //   a * b;}
 
-//solution
+//solution for challenge
 
 function multiply(a, b) {
   return a * b;
