@@ -1,8 +1,17 @@
-function zicCoo(params) {
+//Create a function that takes an integer as an argument and returns
+//"Even" for even numbers or "Odd" for odd numbers.
 
-    let sum = a+b
-    console.log(sum);
-    
+
+function evenOrOdd(number) {
+  if (number % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
 }
 
-zicCoo(5,2)
+//Alternative Solution
+
+function evenOrOdd(number) {
+  return number % 2 === 0 ? "Even" : "Odd";
+}
